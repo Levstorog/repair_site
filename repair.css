@@ -1,0 +1,409 @@
+body, html {
+    margin: 0;
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+header ul {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+.block_1 {
+    display: flex;
+    padding: 70px 100px;
+}
+.container {
+    display: flex;
+    gap: 50px;
+}
+.but {
+    border: 0px;
+    background-color: #505050;
+    color: white;
+    padding: 30px 75px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.logo_repair {
+    font-size: 55px;
+}
+.slogon {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: #696969;
+}
+.arrow {
+    border: none;
+    background-color: #C49FF6;
+    cursor: pointer;
+}
+.block_2 {
+    background-color: #C49FF6;
+}
+.card {
+    background-color: white;
+    width: 380px;
+    padding: 0 0 30px 0px;
+}
+.card_p {
+    margin: 0;
+}
+.usluga {
+    font-size: 55px;
+}
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 350px;
+}
+.price p {
+    margin-bottom: 16px;
+}
+.repair {
+    padding: 100px 0 0 0;
+}
+.work {
+    padding: 20px 20px 0 30px;
+}
+.block_arrow {
+    background-color: #505050;
+    display: flex;
+    width: 70px;
+    height: 63px;
+    align-items: center;
+    justify-content: center;
+}
+.next {
+    display: flex;
+    justify-content: space-around;
+    gap: 75px;
+    padding: 15px 0 0 0;
+    align-items: flex-start;
+}
+
+
+
+
+select, input{
+    display: flex;
+    width: 255px;
+    border: 0;
+    font-size: 18px;
+    margin: 0 0 0 15px;
+}
+::placeholder {
+    padding: 10px;
+}
+select {
+    padding: 10px;
+}
+.problem {
+    font-size: 55px;
+    margin: 0;
+    
+}
+.problem_mini {
+    color: #696969;
+    width: 250px;
+}
+.block_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 30px 0;
+}
+.one {
+    width: 400px;
+}
+.grey {
+    color: #696969;
+}
+.down {
+    padding: 25px 0
+}
+footer {
+    background-color: #C49FF6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fot {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+}
+.logo_footer {
+    padding: 50px;
+}
+.end {
+    color: #696969;
+}
+
+.card_hold{
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.show {
+    left: 0;
+}
+
+
+
+
+
+@media(max-width: 1440px) {
+.burger {
+    display: none;
+}
+.hide {
+    display: flex;
+}
+.card_hide {
+    display: none;
+}
+.card_hold {
+    display: flex;
+}
+.slider-container {
+    width: 40%;
+    max-width: 425px;
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+.slider {
+    gap: 50px;
+}
+}
+@media(max-width: 426px) {
+header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+.arrow {
+    display: none;
+}
+.card_hold {
+    display: none;
+}
+.card_hide {
+    overflow: hidden;
+    display: flex;
+}
+.container {
+    display: none;
+}
+.burger {
+    display: block;
+    border: none;
+    background-color: white;
+}
+.hide {
+    display: none;
+}
+.block_1 {
+    padding: 0;
+}
+.service {
+    display: none;
+}
+.repair {
+    text-align: center;
+    padding: 50px 0;
+}
+.usluga {
+padding: 55px 0 55px 0;
+margin: 0;
+text-align: center;
+}
+.slider {
+    display: block;
+    text-align: center;
+    gap: 100px;
+}
+.card {
+    width: 425px;
+}
+
+.work {
+padding: 20px 0 0 20px;
+width: 350px;
+}
+.block_3 {
+    display: block;
+    text-align: center;
+}
+.tree {
+    display: none;
+}
+.problem_mini {
+    width: 400px;
+}
+.two {
+    padding: 0 0 0 30px;
+}
+.down {
+    margin: 0px 0 0px 70px;
+}
+.down1 {
+    margin: 25px 0 25px 70px;
+    padding: 0 0 0 8px;
+}
+select {
+    padding: 25px 0 25px 40px;
+}
+.one {
+    padding: 0 0 0 15px;
+}
+.fot {
+    display: block;
+    padding: 10px 50px
+}
+.logo_footer {
+    padding: 10px 50px;
+}
+.left {
+    padding-left: 20px;
+    text-align: left;
+}
+}
+
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slider-item {
+    text-align: center;
+    min-width: 425px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.slider-item:last-child {
+    border-right: none;
+}
+.navigation {
+    padding: 0 0 0 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(20%);
+}
+.navigation button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 426px) {
+    .slider-container {
+        width: 100%;
+        max-width: 425px;
+    }
+    .slider-container {
+        width: 100%;
+        max-width: 425px;
+        overflow: hidden;
+        border-radius: 8px;
+        padding-bottom: 20px;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    position: relative;
+}
+
+.logo-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    transition: top 0.3s ease;
+    z-index: 1;
+}
+
+.menu li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.burger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.burger img {
+    width: 30px;
+    height: 30px;
+}
+
+.hide {
+    top: -550%;
+}
+
+.show {
+    top: 50px;
+}
+
+@media (min-width: 426px) {
+    .menu {
+        flex-direction: row;
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        transition: none;
+        top: auto;
+    }
+
+    .menu li {
+        margin: 0 15px;
+    }
+
+    .hide {
+        display: flex;
+    }
+}
